@@ -23,6 +23,7 @@ header > img{
     margin: auto;
     display: block;
     margin-bottom: 10px;
+    box-shadow: 3px 5px 3px rgba(0, 0, 0, 0.322);
 }
 header h1{
     display: block;
@@ -52,12 +53,16 @@ body{
 header{
     margin-bottom: 10px;
 }
+main{
+    padding: 0px 10px;
+}
 main section{
     margin: auto;
     background-color: white;
     max-width: 300px;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.322);
 }
 /*section div#dinsta{
     background-color: lightgreen;
@@ -93,11 +98,14 @@ section div#github > img{
 a#insta{
     position: relative;
     top: -20px;
+    font-family: var(--Fontedestaque);
+    font-size: 1.2em;
     padding: 10px 5px;
     border-radius: 10px;
     display: inline-block;
-    background-color: red;
-    color: black;
+    background-image: linear-gradient(75deg, #fccb6f, #dc2c75, #644ebd);
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.582);
     text-align: center;
     width: calc(100% - 64px);
     text-decoration: none;
@@ -110,11 +118,14 @@ a#insta:hover{
 a#linke{
     position: relative;
     top: -20px;
+    font-family: var(--Fontedestaque);
+    font-size: 1.2em;
     padding: 10px 5px;
     border-radius: 10px;
     display: inline-block;
-    background-color: aqua;
-    color: black;
+    background-image: linear-gradient(to right, #0077b7, #009bee);
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.582);
     text-align: center;
     width: calc(100% - 64px);
     text-decoration: none;
@@ -127,11 +138,14 @@ a#linke:hover{
 a#github{
     position: relative;
     top: -20px;
+    font-family: var(--Fontedestaque);
+    font-size: 1.2em;
     padding: 10px 5px;
     border-radius: 10px;
     display: inline-block;
-    background-color: plum;
-    color: black;
+    background-image: linear-gradient(to right, #48a960, #2b9b3f, #159234);
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.582);
     text-align: center;
     width: calc(100% - 64px);
     text-decoration: none;
