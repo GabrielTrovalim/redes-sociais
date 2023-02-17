@@ -4,3 +4,12 @@
     padding: 0px;
     margin: 0px;
 }
+body{
+    background-color: skyblue;
+}
+main section{
+    background-color: white;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+}
